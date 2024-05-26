@@ -35,3 +35,15 @@ list.style.justifyContent="space-between"
 
 
 
+
+///lab2 
+
+let box=document.getElementById("box")
+setInterval(() => {
+    box.style.height=`${(Math.random()*100).toFixed(0)}vh`
+    box.style.width=`${(Math.random()*100).toFixed(0)}vw`
+    box.style.top=`${(Math.random()*100).toFixed(0)}px`
+    box.style.left=`${(Math.random()*100).toFixed(0)}px`
+    box.style.backgroundColor=` #${(Math.random()*9).toFixed(0)}${(Math.random()*9).toFixed(0)}${(Math.random()*9).toFixed(0)}${(Math.random()*9).toFixed(0)}${(Math.random()*9).toFixed(0)}${(Math.random()*9).toFixed(0)}`
+    box.style.opacity=`${(Math.random()).toFixed(2)}`
+}, 2000);

@@ -2,3 +2,10 @@
 color: brown;
 background-color: black;
 }
+#box{
+    width: 50vw;
+    height: 50vh;
+    background-color: darkorange;
+    position: relative;
+
+}
