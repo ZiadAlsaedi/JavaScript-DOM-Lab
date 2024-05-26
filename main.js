@@ -1,6 +1,7 @@
 //1
-let h1Color=document.getElementsByClassName("h1Class")[0].style.color = "blue";
-let h1BgColor=document.getElementsByClassName("h1Class")[0].style.backgroundColor = "black";
+let h1Class=document.getElementsByClassName("h1Class")[0]
+h1Class.style.color = "blue";
+h1Class.style.backgroundColor = "black";
 //2
 let name1= document.getElementById("name")
 name1.style.fontWeight="bold"
