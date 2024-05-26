@@ -3,10 +3,9 @@ let h1Color=document.getElementsByClassName("h1Class")[0].style.color = "blue";
 let h1BgColor=document.getElementsByClassName("h1Class")[0].style.backgroundColor = "black";
 //2
 let name1= document.getElementById("name")
-name1.setAttribute("class", "name");
-name1.style.backgroundColor="blue"
 name1.style.fontWeight="bold"
-name1.style.color="green"
+name1.setAttribute("class", "name");
+
 
 
 //3
